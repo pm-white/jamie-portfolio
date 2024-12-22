@@ -1,9 +1,14 @@
+:root {
+    --text-primary: #303030;
+}
+
 @media screen and (min-width: 900px) {
     body {
         /* border: 1px red dashed; */
         font-family:Arial, Helvetica, sans-serif;
         margin: auto;
         width: 70%;
+        color: var(--text-primary);
     }   
 }
 
@@ -13,6 +18,7 @@
         font-family:Arial, Helvetica, sans-serif;
         margin: auto;
         width: 100%;
+        color: var(--text-primary);
     }   
 }
 
@@ -24,10 +30,6 @@
     align-items: center;
     justify-content: space-between;
     padding: 1em 1em 0 1em;
-}
-
-header {
-    /* border: 1px red solid; */
 }
 
 nav {
@@ -46,11 +48,14 @@ nav ul {
 }
 
 main {
+    padding: 1em;
+}
+
+.home-container {
     /* border: 1px red solid; */
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: 1em;
 }
 
 aside {
@@ -63,7 +68,7 @@ aside img {
     clip-path: circle();
 }
 
-#main-text-container {
+#home-text-container {
     /* border: 1px red solid; */
     padding: 1em;
     flex: 2;
@@ -77,4 +82,21 @@ a {
 a:hover {
     border-bottom: 1px darkgray solid;
 
+}
+
+.teaching-container {
+    border: 1px seagreen solid;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.teaching-container p:first-of-type { 
+    border: 1px blue solid;
+    flex: 1
+} 
+
+.teaching-container p:nth-of-type(2) {
+    border: 1px greenyellow solid;
+    flex: 5;
 }
