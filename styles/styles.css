@@ -105,11 +105,23 @@ a {
 }
 
 button {
+    font-size: 1em;
+    color: var(--text-light);
     background-color: white;
     border: none;
     cursor: pointer;
+    text-align: left;
 }
 
 button:hover {
-    font-style: italic;
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+}
+
+.filter-buttons {
+    margin-bottom: 1.5em;
+}
+
+.writing-container p {
+    margin-bottom: 2em;
 }
