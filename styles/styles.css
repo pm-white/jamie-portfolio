@@ -9,7 +9,7 @@
     body {
         font-family:Arial, Helvetica, sans-serif;
         margin: auto;
-        width: 70%;
+        width: 60%;
         color: var(--text-primary);
     }   
 }
@@ -76,7 +76,7 @@ aside img {
 
 #home-text-container {
     padding: 1em;
-    flex: 2;
+    flex: 3;
 }
 
 .teaching-container {
