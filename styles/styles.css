@@ -1,127 +1,127 @@
 :root {
-    --text-primary: #303030;
-    --text-light: #5C5C5C;
-    --text-lighter: #B8B8B8;
-    --text-link: #1789FC;
+  --text-primary: #303030;
+  --text-light: #5c5c5c;
+  --text-lighter: #b8b8b8;
+  --text-link: #1789fc;
 }
 
 @media screen and (min-width: 900px) {
-    body {
-        font-family:Arial, Helvetica, sans-serif;
-        margin: auto;
-        width: 60%;
-        color: var(--text-primary);
-    }   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 60%;
+    color: var(--text-primary);
+  }
 }
 
 @media screen and (max-width: 900px) {
-    body {
-        font-family:Arial, Helvetica, sans-serif;
-        margin: auto;
-        width: 100%;
-        color: var(--text-primary);
-    }   
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    width: 100%;
+    color: var(--text-primary);
+  }
 }
 
 #header-nav {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-between;
-    padding: 1em 1em 0 1em;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em 1em 0 1em;
 }
 
 nav {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: flex-end;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 }
 
 nav ul {
-    list-style-type: none;
-    display: flex;
-    gap: 1.5em;
-    font-size: 1.1em;
-    padding-inline-start: 0;
+  list-style-type: none;
+  display: flex;
+  gap: 1.5em;
+  font-size: 1.1em;
+  padding-inline-start: 0;
 }
 
 nav a {
-    text-decoration: none;
-    color: inherit;
+  text-decoration: none;
+  color: inherit;
 }
 
 nav a:hover {
-    border-bottom: 1px darkgray solid;
-
+  border-bottom: 1px darkgray solid;
 }
 
 main {
-    padding: 1em;
+  padding: 1em;
 }
 
 .home-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 aside {
-    flex: 1;
+  flex: 1;
 }
 
 aside img {
-    clip-path: circle();
+  clip-path: circle();
 }
 
 #home-text-container {
-    padding: 1em;
-    flex: 3;
+  padding: 1em;
+  flex: 3;
 }
 
 .teaching-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
-.teaching-container p:first-of-type { 
-    flex: 1;
-    color: var(--text-light)
-} 
+.teaching-container p:first-of-type {
+  flex: 1;
+  color: var(--text-light);
+}
 
 .teaching-container p:nth-of-type(2) {
-    flex: 6;
+  flex: 6;
 }
 
 h1 {
-    font-size: 18px;
-    margin-bottom: 0;
+  font-size: 18px;
+  margin-bottom: 0;
 }
 
 a {
-    color: var(--text-link);
-    text-decoration-thickness: 1px;
+  color: var(--text-link);
+  text-decoration-thickness: 1px;
 }
 
 button {
-    font-size: 1em;
-    color: var(--text-light);
-    background-color: white;
-    border: none;
-    cursor: pointer;
-    text-align: left;
+  font-size: 1em;
+  color: var(--text-light);
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  text-align: left;
 }
 
 button:hover {
-    text-decoration: underline;
-    text-decoration-thickness: 1px;
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
 }
 
 .filter-buttons {
-    margin-bottom: 1.5em;
+  margin-bottom: 1.5em;
 }
 
 .writing-container p {
-    margin-bottom: 2em;
+  margin-bottom: 2em;
 }
+
