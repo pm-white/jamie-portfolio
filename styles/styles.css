@@ -27,7 +27,7 @@
     width: 100%;
     color: var(--text-primary);
   }
-  
+
   .home-container {
     display: flex;
     flex-direction: column;
@@ -130,4 +130,3 @@ button:hover {
 .writing-container p {
   margin-bottom: 2em;
 }
-
